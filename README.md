@@ -1,10 +1,14 @@
 # eonet-us-analysis
 Exploratory analysis of US natural disaster events using the NASA EONET v3 API. Includes density mapping, temporal frequency analysis, and wildfire hotspot identification by state.
 
+## View:
+https://nbviewer.org/github/CrowEch3lon/eonet-us-analysis/blob/main/eonet-us-analysis.ipynb
+
 ## Setup
 
 1. Clone the repo
 2. Create a `.env` file in the root directory:
+
     NASA_API_KEY=your_nasa_key_here
     MAPBOX_TOKEN=your_mapbox_token_here
 
