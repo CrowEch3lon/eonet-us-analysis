@@ -1,0 +1,8 @@
+certifi==2026.4.22
+geographiclib==2.1
+geopy==2.4.1
+numpy==2.4.2
+pandas==3.0.1
+plotly==6.7.0
+python-dotenv==1.2.2
+requests==2.33.1
