@@ -17,12 +17,16 @@ https://nbviewer.org/github/CrowEch3lon/eonet-us-analysis/blob/main/eonet-us-ana
    python -m venv .venv
    source eonet-us-analysis/bin/activate
 ```
-4. Register the kernel:
+4. Install dependencies:
+```bash
+   pip install -r requirements.txt
+```
+5. Register the kernel:
 ```bash
    pip install ipykernel
    python -m ipykernel install --user --name=eonet-us-analysis
 ```
-5. Open `eonet-us-analysis.ipynb` in VSCode, select the `eonet-us-analysis` kernel, and run the notebook -- dependencies install automatically in the first cell
+6. Open `eonet-us-analysis.ipynb` in VSCode, select the `eonet-us-analysis` kernel, and run the notebook.
 
 ## Run Modes
 
